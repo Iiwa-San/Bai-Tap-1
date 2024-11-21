@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <form action="" method="post"></form>
+    <h1>KHAO SAT SINH VIEN</h1>
+    <table>
+        <tr>
+            <th><label>Ho Ten</label></th>
+            <th><input id="name" type="text" maxlength="50" required /></th>
+        </tr>
+        <tr>
+            <th><label>Gioi tinh</label></th>
+            <td>
+                <input name="sexsual" type="radio" value="Male" />Male
+                <input name="sexsual" type="radio" value="Female" />Female
+            </td>
+        </tr>
+    </table>
+
+    <!--<div>-->
+        @*@RenderBody()*@
+    <!--</div>-->
+</body>
+</html>
